@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+
+var program = require('commander');
+var pkg = require('../package.json');
+
+program.version(pkg.version)
+	.option('-p, --pic <n>', 'pic to be transfered')
+	.option('-f, --file <n>', 'store result into a file')
+	.parse(process.argv);
+
+require('../lib/index').run({
+	pic: program.pic,
+	file: program.file
+});
