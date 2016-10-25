@@ -4,11 +4,11 @@ var program = require('commander');
 var pkg = require('../package.json');
 
 program.version(pkg.version)
-	.option('-p, --pic <n>', 'pic to be transfered')
-	.option('-f, --file <n>', 'store result into a file')
+	.option('-i, --input <n>', 'pic to be transfered')
+	.option('-o, --out <n>', 'store result into a file')
 	.parse(process.argv);
 
 require('../lib/index').run({
-	pic: program.pic,
-	file: program.file
+	input: program.input,
+	out: program.out
 });

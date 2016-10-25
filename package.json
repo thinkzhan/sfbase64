@@ -1,6 +1,6 @@
 {
   "name": "sfbase64",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "bin": {
     "b64": "./bin/www"
   },
@@ -21,7 +21,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:liberalist1991/sfcm.git",
-    "web": "https://github.com/liberalist1991/sfcm"
+    "url": "git@github.com:liberalist1991/sfbase64.git",
+    "web": "https://github.com/liberalist1991/sfbase64"
   }
 }
