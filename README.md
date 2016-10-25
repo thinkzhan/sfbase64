@@ -10,7 +10,7 @@ b64
 
 ##args
 
-`b64 -p test.png`
+`b64 -i test.png`
 
-`b64 -p test.png -f out.text`
+`b64 -i test.png -o out.text`
 
